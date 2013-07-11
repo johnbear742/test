@@ -1,0 +1,34 @@
+﻿生成启动时间为 2013/7/2 17:32:23。
+     1>项目“D:\CatCatchRat\CatCatchRat.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\程序目录\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp".\Debug\CatCatchRat.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         D:\程序目录\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\CatCatchRat.pch" /Fo".\Debug\\" /Fd".\Debug\vc110.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt CatCatchRat.cpp CatCatchRatDoc.cpp CatCatchRatView.cpp MainFrm.cpp SelectDlg.cpp
+         SelectDlg.cpp
+         MainFrm.cpp
+         CatCatchRatView.cpp
+         CatCatchRatDoc.cpp
+         CatCatchRat.cpp
+     1>d:\catcatchrat\catcatchrat.cpp(60): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+                 d:\程序目录\microsoft visual studio 11.0\vc\atlmfc\include\afxwin.h(5361) : 参见“CWinApp::Enable3dControls”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Windows Kits\8.0\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\CatCatchRat.res" CatCatchRat.rc 
+       Link:
+         D:\程序目录\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\CatCatchRat.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\程序目录\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\CatCatchRat.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\CatCatchRat.lib" /MACHINE:X86 /SAFESEH .\Debug\CatCatchRat.res
+         .\Debug\CatCatchRat.obj
+         .\Debug\CatCatchRatDoc.obj
+         .\Debug\CatCatchRatView.obj
+         .\Debug\MainFrm.obj
+         .\Debug\SelectDlg.obj
+         .\Debug\StdAfx.obj
+     1>CatCatchRat.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         CatCatchRat.vcxproj -> D:\CatCatchRat\.\Debug\CatCatchRat.exe
+       BscMake:
+         D:\程序目录\Microsoft Visual Studio 11.0\VC\bin\bscmake.exe /nologo /o".\Debug\CatCatchRat.bsc" .\Debug\CatCatchRat.sbr .\Debug\CatCatchRatDoc.sbr .\Debug\CatCatchRatView.sbr .\Debug\MainFrm.sbr .\Debug\SelectDlg.sbr .\Debug\StdAfx.sbr
+     1>已完成生成项目“D:\CatCatchRat\CatCatchRat.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:54.28
